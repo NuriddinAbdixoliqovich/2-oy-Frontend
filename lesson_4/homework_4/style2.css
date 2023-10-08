@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h1{
+    width: 200px;
+    margin: 0 0 50px 50px;
+    padding-top: 50px;
+}
+
+h2{
+    margin: 20px 0;
+}
+
+p{
+    font-size: 8px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+.container{
+    width: 1000px;
+    height: 800px;
+    background-color: lightgray;
+}
+
+.card{
+    display: flex;
+    margin-left: 50px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    width: 200px;
+    height: 280px;
+    background-color: #fff;
+}
+
+.box-2{
+    margin: 0 20px;
+}
+.buttton{
+    font-size: 9px;
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    color: greenyellow;
+    border: 0.5px solid greenyellow;
+}
